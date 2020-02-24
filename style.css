@@ -2194,12 +2194,12 @@ ul.tabs-nav .tab-nav.active {
   top: 0;
   left: 0;
   background-color: #9a28d7 ;
-  display:block;
+  display:flex;
   justify-content: center;
   align-items: center;
 }
 .loader {
-  display: inline-block;
+  display: block;
   width: 30px;
   height: 30px;
   position: relative;
@@ -2208,7 +2208,7 @@ ul.tabs-nav .tab-nav.active {
 }
 .loader-inner {
   vertical-align: top;
-  display: inline-block;
+  display: block;
   width: 100%;
   background-color: #fff;
   animation: loader-inner 2s infinite ease-in;
