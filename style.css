@@ -1162,6 +1162,7 @@ a:hover, a:active {
 .events-list-page .single-event {
     display: none;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .events-list-page .single-event.visible {
@@ -1541,7 +1542,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .single-event-page .event-content-wrap .events-thumbnail {
-    margin-top: 36px;
+    margin-top: 50px;
     margin-bottom: 0;
 }
 
