@@ -1510,6 +1510,7 @@ ul.tabs-nav .tab-nav.active {
     font-weight: bold;
     color: #232127;
     text-decoration: none;
+    margin-bottom: 0.5em;
 }
 
 .single-event-page .event-content-wrap .event-location {
