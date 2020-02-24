@@ -1162,7 +1162,7 @@ a:hover, a:active {
 .events-list-page .single-event {
     display: none;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 30px; 
 }
 
 .events-list-page .single-event.visible {
@@ -1200,6 +1200,7 @@ a:hover, a:active {
     padding-left: 32px;
     margin-top: 12px;
     background: url("images/location-icon.png") no-repeat left top;
+    margin-bottom: 32px;
 }
 
 .events-list-page .event-content-wrap .event-location a {
@@ -1240,6 +1241,7 @@ a:hover, a:active {
 
 .events-list-page .event-content-wrap .entry-footer {
     margin-top: 36px;
+    margin-bottom: 32px;
 }
 
 .events-list-page .event-content-wrap .entry-footer a {
