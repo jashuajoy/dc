@@ -857,7 +857,7 @@ a:hover, a:active {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    border-bottom: 2px solid #bec0cc;
+    border-bottom: 2px solid #bec0cc;  
     text-decoration: none;
     color: #bec0cc;
 }
@@ -1107,6 +1107,7 @@ a:hover, a:active {
 
 .events-page-header {
     background-image: url("images/events-page-header-bg.jpg");
+    margin-bottom: 2em;
 }
 
 .single-event-page-header {
@@ -1504,6 +1505,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .single-event-page .event-content-wrap .entry-title {
+    margin-top: 2em;
     font-size: 36px;
     font-weight: bold;
     color: #232127;
@@ -2188,7 +2190,7 @@ ul.tabs-nav .tab-nav.active {
   top: 0;
   left: 0;
   background-color: #9a28d7 ;
-  display:flex;
+  display:block;
   justify-content: center;
   align-items: center;
 }
