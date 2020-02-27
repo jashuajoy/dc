@@ -2193,7 +2193,7 @@ ul.tabs-nav .tab-nav.active {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #9a28d7 ;
+  background-color: #fff ;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -2203,14 +2203,14 @@ ul.tabs-nav .tab-nav.active {
   width: 30px;
   height: 30px;
   position: relative;
-  border: 4px solid #Fff;
+  border: 4px solid #000;
   animation: loader 2s infinite ease;
 }
 .loader-inner {
   vertical-align: top;
   display: block;
   width: 100%;
-  background-color: #fff;
+  background-color: #000;
   animation: loader-inner 2s infinite ease-in;
 }
 @keyframes loader {
