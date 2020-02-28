@@ -1178,8 +1178,6 @@ a:hover, a:active {
 
 .events-list-page .event-content-wrap  {
     padding: 48px 36px 36px;
-    margin-top: 40px;
-    margin-bottom: 40px;
     border: 1px solid #e5e5e5;
     border-top: 0;
     background: #f3f8f9;
@@ -1244,6 +1242,8 @@ a:hover, a:active {
 
 .events-list-page .event-content-wrap .entry-footer a {
     padding-bottom: 2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 18px;
     font-weight: bold;
     color: #9a28d7;
