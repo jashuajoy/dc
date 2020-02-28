@@ -28,7 +28,7 @@
                 <div class="col-10 col-lg-2 order-lg-1">
                     <div class="site-branding">
                         <div class="site-title">
-                            <a href="#"><img src="images/main.png" alt="logo"></a>
+                            <a href="index.html"><img src="images/main.png" alt="logo"></a>
                         </div><!-- .site-title -->
                     </div><!-- .site-branding -->
                 </div><!-- .col -->
@@ -44,17 +44,16 @@
 
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="#">About us</a></li>
                             <li><a href="events.html">Events</a></li>
-                            <li><a href="#">News</a></li>
                             <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">About us</a></li>
                         </ul>
                     </nav><!-- .site-navigation -->
                 </div><!-- .col -->
 
                 <div class="col-lg-3 d-none d-lg-block order-2 order-lg-3">
                     <div class="buy-tickets">
-                        <a class="btn gradient-bg" href="https://chat-forms.com/forms/1582470624658-unh/index.html">Buy Tickets</a>
+                        <a class="btn gradient-bg" href="#">Buy Tickets</a>
                     </div><!-- .buy-tickets -->
                 </div><!-- .col -->
             </div><!-- .row -->
@@ -63,7 +62,7 @@
 
     <div class="swiper-container hero-slider">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" data-date="2020/03/27" style="background: url('images/header-bg.jpg') no-repeat">
+            <div class="swiper-slide" data-date="2020/03/19" style="background: url('images/header-bg.jpg') no-repeat">
                 <div class="hero-content">
                     <div class="container">
                         <div class="row">
@@ -574,27 +573,7 @@
 
                         <div class="event-partner-logo">
                             <a href="#"><img src="images/south-porth.png" alt=""></a>
-                        </div>
-
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/himalayas.png" alt=""></a>
-                        </div>
-
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/sa.png" alt=""></a>
-                        </div>
-
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/south-porth.png" alt=""></a>
-                        </div>
-
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/pixar.png" alt=""></a>
-                        </div>
-
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/the-pirate.png" alt=""></a>
-                        </div>
+                        </div> 
                     </div>
                 </div>
 
@@ -608,18 +587,18 @@
         <div class="row">
             <div class="col-12">
                 <header class="entry-header">
-                    <h2 class="entry-title">Subscribe to our newsletter to get the latest trends & news</h2>
-                    <p>Join our database NOW!</p>
+                    <h2 class="entry-title">Your Enjoyment is Our Gaurentee..</h2>
+                    <p>Register yourself now!!!</p>
                 </header>
 
                 <div class="newsletter-form">
-                    <form class="flex flex-wrap justify-content-center align-items-center">
+                    <form class="flex flex-wrap justify-content-center align-items-center" id="contactForm">
                         <div class="col-md-12 col-lg-3">
-                            <input type="text" placeholder="Name">
+                            <input type="text"  placeholder="Name" id="name">
                         </div>
 
                         <div class="col-md-12 col-lg-6">
-                            <input type="email" placeholder="Your e-mail">
+                            <input type="email" placeholder="Your e-mail" id="email">
                         </div>
 
                         <div class="col-md-12 col-lg-3">
@@ -643,10 +622,9 @@
                 <nav class="footer-navigation">
                     <ul class="flex flex-wrap justify-content-center align-items-center">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About us</a></li>
                         <li><a href="events.html">Events</a></li>
-                        <li><a href="#">News</a></li>
                         <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">About us</a></li>
                     </ul>
                 </nav>
 
@@ -688,6 +666,15 @@
 <script type='text/javascript' src='js/circle-progress.min.js'></script>
 <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
 <script type='text/javascript' src='js/custom.js'></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
+
+
+<script src='base.js'></script>
 
 </body>
 </html>

@@ -1188,12 +1188,12 @@ a:hover, a:active {
 .events-list-page .event-content-wrap .entry-title {
     font-size: 28px;
     font-weight: bold;
-    color: #232127;
+    color: #FFFF00!important;
     text-decoration: none;
 }
 
 .events-list-page .event-content-wrap .entry-title a {
-    color: #232127;
+    color: #9400D3;
 }
 
 .events-list-page .event-content-wrap .event-location {
@@ -1206,7 +1206,7 @@ a:hover, a:active {
 .events-list-page .event-content-wrap .event-location a {
     font-size: 14px;
     font-weight: bold;
-    color: #232127;
+    color: #000;
     text-decoration: none;
 }
 
