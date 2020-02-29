@@ -691,11 +691,11 @@
                 <div class="newsletter-form">
                     <form class="flex flex-wrap justify-content-center align-items-center" id="contactForm">
                         <div class="col-md-12 col-lg-3">
-                            <input type="text"  placeholder="Name" id="name">
+                            <input type="text"  placeholder="Name" name="name">
                         </div>
 
                         <div class="col-md-12 col-lg-6">
-                            <input type="email" placeholder="Your e-mail" id="email">
+                            <input type="email" placeholder="Your e-mail" name="email">
                         </div>
 
                         <div class="col-md-12 col-lg-3">
@@ -763,6 +763,22 @@
 <script type='text/javascript' src='js/circle-progress.min.js'></script>
 <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
 <script type='text/javascript' src='js/custom.js'></script>
+<script>var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbx12jFRwx3IuszEUjsAJ6MaIcewzEIL5coJCV9modAfL3Zwpw/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+    alert('sucess'),
+  );
+})
+</script>
 
 <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
 
