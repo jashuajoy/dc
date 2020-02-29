@@ -1540,7 +1540,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .single-event-page .event-content-wrap .events-thumbnail {
-    margin-top: 36px;
+    margin-top: 0.8rem;
     margin-bottom: 0;
 }
 
@@ -1560,6 +1560,8 @@ ul.tabs-nav .tab-nav.active {
 @media screen and (min-width: 992px){
     .single-event-page .tabs-container {
         padding: 60px;
+        margin-bottom: 30px;
+        margin-top: 10px;
     }
 }
 
