@@ -1242,8 +1242,6 @@ a:hover, a:active {
 
 .events-list-page .event-content-wrap .entry-footer a {
     padding-bottom: 2px;
-    margin-top: 40px;
-    margin-bottom: 40px;
     font-size: 18px;
     font-weight: bold;
     color: #9a28d7;
@@ -1540,7 +1538,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .single-event-page .event-content-wrap .events-thumbnail {
-    margin-top: 0.8rem;
+    margin-top: 36px;
     margin-bottom: 0;
 }
 
@@ -1560,8 +1558,6 @@ ul.tabs-nav .tab-nav.active {
 @media screen and (min-width: 992px){
     .single-event-page .tabs-container {
         padding: 60px;
-        margin-bottom: 30px;
-        margin-top: 10px;
     }
 }
 
