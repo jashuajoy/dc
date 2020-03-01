@@ -78,12 +78,12 @@
     var $container      = $('.events-list');
     var $item           = $('.single-event');
 
-    $item.slice(0, 6).addClass('visible');
+    $item.slice(0, 2).addClass('visible');
 
     $('.load-more-btn a').on('click', function (e) {
         e.preventDefault();
 
-        $('.single-event:hidden').slice(0, 6).addClass('visible');
+        $('.single-event:hidden').slice(0, 2).addClass('visible');
         $container.masonry('layout');
     });
 
